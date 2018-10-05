@@ -1,0 +1,5 @@
+---
+layout: default
+---
+
+The [course information sheet](documents/courseinfosheet.pdf) has been posted, and the preparation assignment for Tuesday's class has been posted.

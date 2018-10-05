@@ -1,0 +1,5 @@
+---
+layout: default
+---
+
+HW 0 is posted. It is due in class on Thursday, Oct 03.
