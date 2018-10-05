@@ -6,7 +6,7 @@ navigation_weight: 1
 
 <div class="intro">
 
-![Asilata Bapat](assets/asilata-bapat.jpg){:#mypicture}
+![David Tran-Thanh NGO](assets/david-ngo.jpg){:#mypicture}
 
 <div>
 
