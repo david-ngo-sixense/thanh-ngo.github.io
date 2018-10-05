@@ -31,6 +31,8 @@ I finished my PhD at [university of Strasbourg] (https://www.unistra.fr/) in 201
 Before, I graduated from the French Graduate Engineering School [IMT Atlantique] (https://www.imt-atlantique.fr/fr) (ex-Télécom Bretagne, Brest) in 2012 where I studied computer science and signal processing. I hold a master in Image processing from Université de Rennes 1 and Télécom Bretagne.
   [research page](/research), and my CV is available [here](assets/CV_Ngo_en.pdf).
 
+I genuinely enjoy learning new skills, designing, developing, and implementing effective and efficient techniques in image processing and computer vision to tackle real-world challenges. 
+
 ### Teaching
 For a link:  [MATH 1113](https://programsandcourses.anu.edu.au/course/math1113). 
 To  [teaching page](teaching/).
