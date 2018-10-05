@@ -3,7 +3,7 @@ kramdown:
 
 permalink: pretty
 
-url: "https://asilata.github.io/"
+url: "https://thanh-ngo.github.io/"
   
 exclude: ['deploy', 'stylesheet.scss']
 

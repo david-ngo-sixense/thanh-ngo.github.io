@@ -15,9 +15,8 @@ The Australian National University
 Canberra, ACT, 2601, Australia
 
 
-**Email:** `tran-thanh.ngo` at `cea` dot `fr`  
-**Office:** 4.84, [Hanna Neumann Building #145](http://www.anu.edu.au/maps#show=102872)  
-**Phone:** +61 2 6125 4141
+**Email:** `tran-thanh.ngo` at `cea` dot `fr`   
+**Phone:** +33 2 6125 4141
 
 </div>
 
