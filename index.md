@@ -16,7 +16,7 @@ Canberra, ACT, 2601, Australia
 
 
 **Email:** `tran-thanh.ngo` at `cea` dot `fr`   
-**Phone:** +33 2 6125 4141
+**Phone:** +33 6 52 55 87 46
 
 </div>
 
@@ -28,10 +28,11 @@ Short introduction:
 My papers and preprints are on my [research page](/research), and my CV is available [here](assets/CV_Ngo_en.pdf).
 
 ### Teaching
-In 2018 Semester 2 I am teaching the Linear Algebra portion of [MATH 1113](https://programsandcourses.anu.edu.au/course/math1113). 
-Older teaching is listed on my [teaching page](teaching/).
+For a link:  [MATH 1113](https://programsandcourses.anu.edu.au/course/math1113). 
+To  [teaching page](teaching/).
 
 ### Current and upcoming activities
+Older activities are listed on my [activities page](activities/).
 
 {% capture currenttime %}{{ site.time }}{% endcapture %}
 {% assign activities = site.data.activities | where_exp: "activity", "activity.date > currenttime" | sort: 'date' %}
@@ -46,5 +47,5 @@ Older teaching is listed on my [teaching page](teaching/).
 {% endfor %}
 </ul>
 
-Older activities are listed on my [activities page](activities/).
+
 
