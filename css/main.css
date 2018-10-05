@@ -8,7 +8,7 @@ body {
 #container {
 	background: #fff;
 	margin: 40px auto;
-	width: 880px;
+	width: 1150px;
 	font-family: "Trebuchet MS", arial;
 	box-shadow: 0 0 30px rgba(0,0,0,0.4);
 	-moz-box-shadow: 0 0 30px rgba(0,0,0,0.4);
@@ -51,7 +51,7 @@ body {
 
 #header img {
 	float: right;
-	margin-left: 8px;
+	margin-left: 10px;
 	margin-top: -20px;
 }
 
@@ -136,7 +136,7 @@ body {
 
 .section  .right {
 	float: right;
-	width: 622px;
+	width: 900px;
 }
 
 .section p {
@@ -157,21 +157,40 @@ body {
 /*----------Section Top------------*/
 
 .sectiontop {
-	height: 120px;
+	height: 140px;
 	padding: 38px 0 48px;
 }
+.sectiontop img {
+	float: left;
+	background: #fff;
+	border: 3px solid #cccccc;
+	margin-top: -10px;
+}
 
+.sectiontop h1 {
+	margin-left: 200px;
+}
+
+.sectiontop h2 {
+	margin-top: 30px;
+	margin-left: 200px;
+}
+
+.sectiontop ul {
+	margin-top: -80px;
+	margin-left: 200px;
+}
 /*----------Personal------------*/
 
 .personal {
-	height: 100px;
+	height: 80px;
 }
 
 
 /*----------Education------------*/
 
 .education {
-	height: 200px;
+	height: 280px;
 }
 
 .selection_education {
@@ -194,22 +213,64 @@ body {
 
 .row h5 {
 	font-family:Arial, Helvetica, sans-serif;
-	color: #999;
-	font-weight: bold;
-	font-size: 12px;
+	color: blue;
+	font-size: 14px;
 	margin-bottom: 10px;
 }
 
-.row a {
+.row h6 {
 	text-decoration: none;
 	color: #fff;
 	padding: 7px 8px;
 	background: #666;
-	font-size: 13px;
+	font-size: 14px;
 	position: absolute;
 	top: 0;
 	right: 0;
 	cursor: default;
+}
+
+.row li ul{
+  background: #e0e0e0;
+  border-left: 2px solid #a80329;
+  border-right: 2px solid #a80329;
+  border-bottom: 2px solid #a80329;
+  display: none;
+  height: auto;
+  filter: alpha(opacity=95);
+  opacity: 0.95;
+  position: absolute;
+  width: 5px;
+  z-index: 200;
+}
+.row a:link, a:visited { color: #5b8fbe; text-decoration: none; } 
+
+.row a:hover {
+	background: #aaa;
+}
+
+/*----------Experiences------------*/
+
+.experiences {
+	height: 320px;
+}
+
+.selection_experiences {
+	border-bottom: 1px solid #eeeeee;
+}
+
+.row {
+	padding-bottom: 15px;
+	margin-bottom: 18px;
+	position: relative;
+}
+
+.row h4 {
+	font-family:Arial, Helvetica, sans-serif;
+	color: #0099CC;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 4px;
 }
 
 .row a:hover {
