@@ -22,10 +22,14 @@ Canberra, ACT, 2601, Australia
 
 </div>
 
-### Research interests and background
+### Background
+Since 2016, I have been an Eurofusion engineering fellow with the [CEA Cadarache/Institut de Recherche sur la Fusion Magnétique] (http://irfm.cea.fr/), Saint-Paul-les Durance, France, 
+where I am in charge of the conception and development of a software platform for the exploitation of imaging diagnostics in nuclear fusion devices (WEST tokamak of the CEA/Cadarache and Wendelstein 7-X stellarator of IPP Greifswald) . 
 
-Short introduction: 
-My papers and preprints are on my [research page](/research), and my CV is available [here](assets/CV_Ngo_en.pdf).
+I finished my PhD at [university of Strasbourg] (https://www.unistra.fr/) in 2015, where I developed the novel algorithms to detect shadows, vegetation and buildings from optical and satellite images (my PhD thesis can be found [here] (assets/PhD_TranNgo.pdf)). 
+
+Before, I graduated from the French Graduate Engineering School [IMT Atlantique] (https://www.imt-atlantique.fr/fr) (ex-Télécom Bretagne, Brest) in 2012 where I studied computer science and signal processing. I hold a master in Image processing from Université de Rennes 1 and Télécom Bretagne.
+  [research page](/research), and my CV is available [here](assets/CV_Ngo_en.pdf).
 
 ### Teaching
 For a link:  [MATH 1113](https://programsandcourses.anu.edu.au/course/math1113). 
