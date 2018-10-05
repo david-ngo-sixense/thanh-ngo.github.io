@@ -15,7 +15,7 @@ The Australian National University
 Canberra, ACT, 2601, Australia
 
 
-**Email:** `asilata.bapat` at `anu` dot `edu` dot `au`  
+**Email:** `tran-thanh.ngo` at `cea` dot `fr`  
 **Office:** 4.84, [Hanna Neumann Building #145](http://www.anu.edu.au/maps#show=102872)  
 **Phone:** +61 2 6125 4141
 
@@ -25,10 +25,8 @@ Canberra, ACT, 2601, Australia
 
 ### Research interests and background
 
-My research focuses on problems in representation theory and algebraic geometry. 
-I am most interested in the topology and geometry of algebraic varieties arising from representation theory.
-Specific topics of interest include perverse sheaves, quiver varieties, equivariant cohomology, and Bernstein--Sato polynomials.
-My papers and preprints are on my [research page](/research), and my CV is available [here](assets/bapat-cv.pdf).
+Short introduction: 
+My papers and preprints are on my [research page](/research), and my CV is available [here](assets/CV_Ngo_en.pdf).
 
 ### Teaching
 In 2018 Semester 2 I am teaching the Linear Algebra portion of [MATH 1113](https://programsandcourses.anu.edu.au/course/math1113). 
