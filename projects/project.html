@@ -19,46 +19,70 @@
 <ul>
 <li><a href="../index.html">Home</a></li>
 
-<li><a href="#">Contact</a></li>
+<li><a href="mailto:tran-thanh.ngo@cea.fr">Send Me Email</a></li>
 </ul>
 <a href="https://www.linkedin.com/in/tran-thanh-ngo-43801749/" class="social_contact">linkedin</a>  
-<a href="https://github.com/thanh-ngo" class="social_contact">github</a>
+<!-- <a href="https://github.com/thanh-ngo" class="social_contact">github</a> -->
 </div>
 
 
+<div id="toc_container">
+		<p class="toc_title">
+			Contents
+		</p>
+		<br>
+		<ol>
+			<li>
+				<a href="#Imaging_Software_title">Imaging Software for thermal measurement in fusion facilities</a> <br>
+				<ol>
+					<li><a href="#Context">Context</a></li>  
+					<li><a href="#Imaging_Software">Imaging software</a></li>
+					<li><a href="#thermal_event">Thermal Event detection and tracking</a></li>
+				</ol>
+			</li>
+		<li><a href="#building_detection">Building Detection from VHR aerial imagery using shadow and image segmentation</a></li>
+		<li><a href="#shadow_vegetation_detection">Simultaneous shadow/vegetation detection from high resolution aerial images</a></li>
+		<li><a href="#geolocation">Analysis of individual migration movements of the European sea bass by data mining with electronic tagging</a></li>
+		</ol>
+		
+	</div>
 
-<div class="section">
-	<!--  Imaging Software for thermal measurement in fusion facilities    -->
+<div class="project">
+	
+	
 	<p>
-	<b>Imaging Software for thermal measurement in fusion facilities</b>	
+	<b>Keywords:</b> deep learning, object detection and tracking, pattern recognition, Bayesian inference, Markov random field.
 	</p>
+	
+	<!--  Imaging Software for thermal measurement in fusion facilities    -->
+	
+	
+	<hr class = "style3">
 	<p>
-	<b>Context:</b> one of the main issues raised by nuclear fusion relates to the safe exploitation of wall materials that can withstand high heat flux. To satisfy these requirements, numerous
-diagnostics are implemented, especially IR and visible camera to survey and study the behavior of the wall. A powerful Imaging Software is therefore essential in order to analyze
-the data online. In this context, since 2016, within the <a href="http://irfm.cea.fr/">IRFM (Institute for Magnetic Fusion Research)</a>, <a href="">CEA Cadarache</a>,  I am in charge of the conception and development of a software platform for the exploitation of imaging diagnostics in
+	<h2 id="Imaging_Software_title">Imaging Software for thermal measurement in fusion facilities</h2>	
+	</p>
+	
+	<h3 id="Context">Context:</h3> 
+	<p>One of the main issues raised by nuclear fusion relates to the safe exploitation of wall materials that can withstand high heat flux. To satisfy these requirements, numerous
+diagnostics are implemented, especially Infrared (IR) and visible camera to survey and study the behavior of the wall. A powerful Imaging Software is therefore essential in order to analyze
+the data. In this context, since 2016, within the <a href="http://irfm.cea.fr/">IRFM (Institute for Magnetic Fusion Research)</a>, <a href="">CEA Cadarache</a>,  I am in charge of the conception and development of a software platform for the exploitation of imaging diagnostics in
  nuclear fusion devices (WEST tokamak of the CEA/Cadarache and Wendelstein 7-X stellarator of IPP Greifswald).
 	</p>
+	<br>
+	<h3 id="Imaging_Software">Imaging software:</h3>
 	<p>
-	<b>Imaging software:</b> is aimed to provide a visualization and analysis tool for infra-red data. It is a C++ framework with Qt library. Some of its functionalites :
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	
+	The software is a C++ framework with Qt library which is aimed to provide a visualization and analysis tool for infra-red data.  Some of its functionalites :
 	<ul>
 		<li>It allows users to read and display IR videos (and other diagnostic data) from WEST database</li>
-		<li>it defines some image processing algorithms: rotation, mirror, component labelling, thresholding, watershed segmentation, k-means clustering, extraction of bounding box</li>
-		<li>a SQL thermal event database plugin  allows users to connect to the thermal event database, list all the detected thermal events with some pre-defined criteria (discharge number, camera target, region of interest, type of thermal event). Users can request any thermal events by submitting a SQL query.  </li>
-		<li>a thermal event detection editor plugin for annotating and evaluating thermal event detection, tracking and recognition. This plugin allows the expert to manually detect /annotate thermal events
-		  and correct event detection results (remove false alarm and./or add  miss-detection object). The goal is to generate ground truth data for evaluating the automatic detection algorithm and feeding the learning network . </li>
+		<li>It defines some image processing algorithms: rotation, mirror, component labelling, thresholding, watershed segmentation, k-means clustering, extraction of bounding box</li>
+		<li>A thermal event detection editor plugin for annotating and evaluating thermal event detection, tracking and recognition. This plugin allows users (physicist) to manually detect /annotate thermal events
+		  and correct event detection results (remove false alarm and./or add  miss-detection object). Users then upload the detected thermal events into the SQL database.		   The goal is to generate ground truth data for evaluating the automatic detection algorithm and feeding the learning network . </li>
+		<li>A SQL thermal event database plugin  allows users to connect to the thermal event database, perform data mining based on some pre-defined criteria (discharge number, camera target, region of interest, type of thermal event) or  by submitting a SQL query.  User can replay thermal events into related IR videos.</li>
+
 	</ul>
 	
 	</p>
 	<p>
-	
-	
 	<br>
 	<figure>
 			<img src="imaging_software.png" alt="Trulli" style="width:100%">
@@ -67,8 +91,9 @@ the data online. In this context, since 2016, within the <a href="http://irfm.ce
 			</figcaption>
 		</figure>
 	</p>
+	<br>
 	<p>
-	<b>Thermal Event detection and tracking</b> <br>
+	<h3 id="thermal_event">Thermal Event detection and tracking</h3> <br>
 	
 	
 	</p>
@@ -89,7 +114,7 @@ the data online. In this context, since 2016, within the <a href="http://irfm.ce
 	<!--  Building Detection from VHR aerial imagery using shadow and image segmentation   -->
 	<hr class = "style3">
 	<p>
-	<b>Building Detection from VHR aerial imagery using shadow and image segmentation </b>
+	<h2 id="building_detection">Building Detection from VHR aerial imagery using shadow and image segmentation </h2>
 	</p>
 	<p>
 	<b>Abstract:</b> an automated detection of rectangular buildings from monocular very high resolution aerial images,
@@ -130,7 +155,7 @@ shadow and image segmentation", IEEE International Conference on Image Processin
 	<!--  Simultaneous shadow/vegetation detection from high resolution aerial images   -->
 	<hr class = "style3">
 	<p>
-		<b>Simultaneous shadow/vegetation detection from high resolution aerial images</b>
+		<h2 id="shadow_vegetation_detection">Simultaneous shadow/vegetation detection from high resolution aerial images</h2>
 	</p>
 	<p>
 <b>Abstract:</b> A new method for simultaneously detecting shadows and vegetation in remote sensing images, based on Otsu’s thresholding method and Dempster-Shafer (DS) fusion which aims at combining different shadow indices and vegetation indices in order to increase the information quality and to obtain a more reliable and accurate segmentation result. The DS fusion is carried out pixel by pixel and is incorporated
@@ -168,7 +193,7 @@ couleur en haute résolution", 19ème congrès national sur la Reconnaissance de
 <!--  Analysis of individual migration movements of the European sea bass by data mining with electronic tagging   -->
 <hr class = "style3">
 <p>
-<b>Analysis of individual migration movements of the European sea bass by data mining with electronic tagging </b>
+<h3 id="geolocation">Analysis of individual migration movements of the European sea bass by data mining with electronic tagging </h3>
 </p>
 <p> 
 <b>Abstract:</b>  European sea bass is a highly mobile species whose spatial dynamics remain poorly understood. In order to analyze adult migration patterns, we carried out tagging experiments (acoustic telemetry and data storage tags) off the coast of west Brittany. Acoustic tracking provided 3D behaviour used to parameterize a geolocation method from DST data (depth and temperature). To date, 21 DSTs out of 246 have been recovered. Our geolocation model (daily predicted probability maps issued from a HMM - hidden Markov model) combines both satellite SST data and the hydrodynamic model MARS3D. A sensitivity analysis demonstrates its robustness to recover consistent movement patterns. Fish with long times at liberty exhibited strong site fidelity to summer feeding ground. Reconstructed individual trajectories revealed different spawning migration patterns (mostly in the Bay of Biscay but also in the Celtic sea/English Channel). The joint analysis of horizontal and vertical movements showed seasonal behavioural shifts. Our results support the hypothesis of a fine scale spatial structuring at the population scale, 
