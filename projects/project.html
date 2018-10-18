@@ -1,0 +1,205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>David Tran-Thanh NGO's website</title>
+<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+<link rel="stylesheet" type="text/css" href="../css/main.css" />
+<link rel="stylesheet" href="../css/stylesheet.css" type="text/css" charset="utf-8" />
+<link rel="stylesheet" href="../css/progressbar.css" type="text/css" />
+<link rel="stylesheet" href="../css/print.css" type="text/css" media="print" />
+<link rel="shortcut icon" type="../image/x-icon" href="favicon.ico" />
+</head>
+
+<body>
+<div id="container">
+<div id="header">
+<ul>
+<li><a href="../index.html">Home</a></li>
+
+<li><a href="#">Contact</a></li>
+</ul>
+<a href="https://www.linkedin.com/in/tran-thanh-ngo-43801749/" class="social_contact">linkedin</a>  
+<a href="https://github.com/thanh-ngo" class="social_contact">github</a>
+</div>
+
+
+
+<div class="section">
+	<!--  Imaging Software for thermal measurement in fusion facilities    -->
+	<p>
+	<b>Imaging Software for thermal measurement in fusion facilities</b>	
+	</p>
+	<p>
+	<b>Context:</b> one of the main issues raised by nuclear fusion relates to the safe exploitation of wall materials that can withstand high heat flux. To satisfy these requirements, numerous
+diagnostics are implemented, especially IR and visible camera to survey and study the behavior of the wall. A powerful Imaging Software is therefore essential in order to analyze
+the data online. In this context, since 2016, within the <a href="http://irfm.cea.fr/">IRFM (Institute for Magnetic Fusion Research)</a>, <a href="">CEA Cadarache</a>,  I am in charge of the conception and development of a software platform for the exploitation of imaging diagnostics in
+ nuclear fusion devices (WEST tokamak of the CEA/Cadarache and Wendelstein 7-X stellarator of IPP Greifswald).
+	</p>
+	<p>
+	<b>Imaging software:</b> is aimed to provide a visualization and analysis tool for infra-red data. It is a C++ framework with Qt library. Some of its functionalites :
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<ul>
+		<li>It allows users to read and display IR videos (and other diagnostic data) from WEST database</li>
+		<li>it defines some image processing algorithms: rotation, mirror, component labelling, thresholding, watershed segmentation, k-means clustering, extraction of bounding box</li>
+		<li>a SQL thermal event database plugin  allows users to connect to the thermal event database, list all the detected thermal events with some pre-defined criteria (discharge number, camera target, region of interest, type of thermal event). Users can request any thermal events by submitting a SQL query.  </li>
+		<li>a thermal event detection editor plugin for annotating and evaluating thermal event detection, tracking and recognition. This plugin allows the expert to manually detect /annotate thermal events
+		  and correct event detection results (remove false alarm and./or add  miss-detection object). The goal is to generate ground truth data for evaluating the automatic detection algorithm and feeding the learning network . </li>
+	</ul>
+	
+	</p>
+	<p>
+	
+	
+	<br>
+	<figure>
+			<img src="imaging_software.png" alt="Trulli" style="width:100%">
+			<figcaption>
+				Figure:    .
+			</figcaption>
+		</figure>
+	</p>
+	<p>
+	<b>Thermal Event detection and tracking</b> <br>
+	
+	
+	</p>
+	
+	
+	<p>
+	<br>
+	<figure>
+			<img src="thermal_event.gif" alt="Trulli" style="width:100%">
+			<figcaption>
+				Figure:   (left) thermal event detection and tracking, (right) maximum temperature of thermal event over time.
+			</figcaption>
+		</figure>
+	</p>
+	
+	
+	
+	<!--  Building Detection from VHR aerial imagery using shadow and image segmentation   -->
+	<hr class = "style3">
+	<p>
+	<b>Building Detection from VHR aerial imagery using shadow and image segmentation </b>
+	</p>
+	<p>
+	<b>Abstract:</b> an automated detection of rectangular buildings from monocular very high resolution aerial images,
+	 based on a novel region-growing image segmentation algorithm is proposed. 
+	 The input image is first decomposed into a set of homogeneous primitive regions.
+	  Regions are then grouped into different clusters by a Markov Random Field (MRF)-based region classification. 
+	  According to the position of the shadows, a merging procedure is performed over regions that belongs to the same cluster to produce regions whose shapes are appropriate to rectangles. This iterative classification-merging stops when no merging happens. 
+	  Final building regions are extracted from the obtained region growing image segmentation result.
+	   The experimental results prove that the proposed method is applicable in various areas (high dense urban, suburban, and rural) and is highly robust and reliable.
+	</p>
+	<p>
+		<figure>
+			<img src="building_detection.png" alt="Trulli" style="width:100%">
+			<figcaption>
+				Figure: An example of first classification-merging: (a) RGB image, (b) oversegmentation (regions are separated by cyan lines) of the image in which shadows and vegetation are masked out, (c) MRF-based classification (clusters are separated by red lines), (d) shadows cast by building, (e) detected building segments (boundaries are delineated by violet lines), (f) after merging.
+			</figcaption>
+		</figure>
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<p>
+	<ul>
+		<b>Publications:</b>
+		<li><b>TT. Ngo</b>, Ch. Collet, V. Mazet, "Shape-based Building Detection in Visible Band Images using Shadow
+Information", IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Volume:
+10, Issue: 3, March 2017 [<a href="../assets/paper_JSTARS.pdf">pdf</a>, <a href="https://doi.org/10.1109/JSTARS.2016.2598856">doi</a>].</li>
+		<li><b>TT. Ngo</b>, Ch. Collet, V. Mazet, "Automatic rectangular building detection from VHR aerial imagery using
+shadow and image segmentation", IEEE International Conference on Image Processing ICIP’15 [<a href="../assets/ICIP_15.pdf">pdf</a>, <a href="https://doi.org/10.1109/ICIP.2015.7351047">doi</a>]</li>
+	</ul>
+	</p>
+	
+	
+	
+	
+	
+	<!--  Simultaneous shadow/vegetation detection from high resolution aerial images   -->
+	<hr class = "style3">
+	<p>
+		<b>Simultaneous shadow/vegetation detection from high resolution aerial images</b>
+	</p>
+	<p>
+<b>Abstract:</b> A new method for simultaneously detecting shadows and vegetation in remote sensing images, based on Otsu’s thresholding method and Dempster-Shafer (DS) fusion which aims at combining different shadow indices and vegetation indices in order to increase the information quality and to obtain a more reliable and accurate segmentation result. The DS fusion is carried out pixel by pixel and is incorporated
+ in the Markovian context while obtaining the optimal segmentation with the energy minimization scheme associated with the Markov random field (MRF). This new approach is applied on remote sensing images and demonstrates its efficiency.
+</p>
+<p>
+<figure>
+<img src="im.png">
+<img src="maxPls.png">
+<img src="MRF.png">
+<figcaption>Figure: Shadow/vegetation detection with the DS fusion and MRF regularization. From left to right :   RGB original image, (b) Shadow/vegetation mapping with Dempster-Shafer fusion,   after Markov random field regularization.</figcaption>
+</figure>
+</p>
+
+<br>
+<br>
+<br>
+<br>
+<ul>
+<b>Publications:</b>
+	<li><b>TT. Ngo</b>, Ch. Collet, V. Mazet, "MRF and Dempster-Shafer theory for simultaneous shadow/vegetation
+	detection on high resolution aerial color images", 2014 IEEE International Conference on Image Processing ICIP’14 [<a href="../assets/ICIP_14.pdf">pdf</a>, <a href="https://doi.org/10.1109/ICIP.2014.7026020">doi</a>].</li>
+	<li><b>TT. Ngo</b>, Ch. Collet, V. Mazet, "Détection simultanée de l’ombre et la végétation sur des images aériennes
+couleur en haute résolution", Traitement du Signal, Vol. 32(2-3):311-333, 2015 [<a href="https://doi.org/10.3166/ts.32.311-333">doi</a>].</li>
+<li><b>TT. Ngo</b>, Ch. Collet, V. Mazet, "Détection simultanée de l’ombre et la végétation sur des images aériennes
+couleur en haute résolution", 19ème congrès national sur la Reconnaissance de Formes et l'Intelligence Artificielle RFIA'14 [<a href="../assets/rfia2014.pdf">pdf</a>].</li>
+</ul>
+</p>
+
+
+
+
+
+
+<!--  Analysis of individual migration movements of the European sea bass by data mining with electronic tagging   -->
+<hr class = "style3">
+<p>
+<b>Analysis of individual migration movements of the European sea bass by data mining with electronic tagging </b>
+</p>
+<p> 
+<b>Abstract:</b>  European sea bass is a highly mobile species whose spatial dynamics remain poorly understood. In order to analyze adult migration patterns, we carried out tagging experiments (acoustic telemetry and data storage tags) off the coast of west Brittany. Acoustic tracking provided 3D behaviour used to parameterize a geolocation method from DST data (depth and temperature). To date, 21 DSTs out of 246 have been recovered. Our geolocation model (daily predicted probability maps issued from a HMM - hidden Markov model) combines both satellite SST data and the hydrodynamic model MARS3D. A sensitivity analysis demonstrates its robustness to recover consistent movement patterns. Fish with long times at liberty exhibited strong site fidelity to summer feeding ground. Reconstructed individual trajectories revealed different spawning migration patterns (mostly in the Bay of Biscay but also in the Celtic sea/English Channel). The joint analysis of horizontal and vertical movements showed seasonal behavioural shifts. Our results support the hypothesis of a fine scale spatial structuring at the population scale, 
+a key issue poorly addressed by current management frameworks. It also provides key information for the understanding and the modelling of the spatial dynamics of the species under environmental forcing.
+</p>
+<p>
+<figure>
+<img src="geolocation.png" alt="Trulli" style="width:100%">
+<figcaption>Figure: Celtic sea migration pattern. Most likely tracks (red) issued from the developed hidden Markov model for 2 bass tagged and recaptured off the coast of west Brittany after ~1 year at liberty.</figcaption>
+</figure>
+<br>
+<br>
+<br>
+<br>
+<ul>
+<b>Publications:</b>
+<li>Mathieu Woillez, Ronan Fablet, <b>Tran-Thanh Ngo</b>, Maxime Lalire, Pascal Lazure, Hélène de Pontual, "A HMM-based model to geolocate pelagic fish from high-resolution individual temperature and depth histories: European sea bass as a case study", Ecological Modelling, 321, 10-22 [<a href="../assets/paper_Ecological_Modelling.pdf">pdf</a>, <a href="https://doi.org/10.1016/j.ecolmodel.2015.10.024">doi</a>]</li>
+<li>Hélène de Pontual, <b>Tran-Thanh Ngo</b>, Maxime Lalire, Pascal Lazure, François Garren, Mickaël Drogou,
+Mathieu Woillez, Ronan Fablet, "Understanding the spatial dynamics of European sea bass: new insights on
+seasonal migration patterns from electronic tagging off the coast of west Brittany", ICES Annual Science
+Conference 2013, Iceland.</li>
+</ul>
+</p>
+
+
+</div>
+
+
+<!-- -------------------------------- contacts ----------------------------------------------------------- -->
+
+
+
+</body>
+</html>
