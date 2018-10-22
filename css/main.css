@@ -211,6 +211,15 @@ body {
 	margin-top: -80px;
 	margin-left: 200px;
 }
+
+.sectiontop a:link, a:visited {
+	color: #5b8fbe;
+	text-decoration: none;
+	 } 
+
+.sectiontop a:hover {
+	background: #aaa;
+}
 /*----------Personal------------*/
 
 .personal {
