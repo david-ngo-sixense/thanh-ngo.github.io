@@ -117,7 +117,7 @@ body {
 }
 
 .section ul a {
-	color: #666;
+	color: #5b8fbe;
 	text-decoration: none;
 }
 
@@ -230,7 +230,7 @@ body {
 /*----------Education------------*/
 
 .education {
-	height: 330px;
+	height: 340px;
 }
 
 
@@ -281,7 +281,7 @@ a:hover {
 /*----------Experiences------------*/
 
 .experiences {
-	height: 570px;
+	height: 560px;
 }
  
 .row {
