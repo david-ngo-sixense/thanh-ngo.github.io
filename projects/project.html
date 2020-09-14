@@ -19,9 +19,9 @@
 <ul>
 <li><a href="../index.html">Home</a></li>
 
-<li><a href="mailto:tran-thanh.ngo@cea.fr">Send Me Email</a></li>
+<li><a href="mailto:david-tran-thanh.ngo@sixense-group.com">Send Me Email</a></li>
 </ul>
-<a href="https://www.linkedin.com/in/tran-thanh-ngo-43801749/" class="social_contact">linkedin</a>  
+<a href="https://www.linkedin.com/in/david-tran-thanh-ngo-43801749/" class="social_contact">linkedin</a>  
 <!-- <a href="https://github.com/thanh-ngo" class="social_contact">github</a> -->
 </div>
 
@@ -69,39 +69,105 @@
 	<p>
 	<b>Keywords:</b> deep learning, object detection and tracking, pattern recognition, image segmentaion, Bayesian inference, Markov random field.
 	</p>
-	
+	<hr class = "style3">
+	<br>	
 	<!--  Accropode blocks detection from point cloud   -->
+	<br>
 	<p>
-	<h2 id="accropode_detection">Accropode blocks detection from point cloud</h2>	
+	<h2 id="accropode_detection">Detection and Tracking of each accropode block on the dam of "La Réunion"</h2>	
 	</p>
 	<h3 id="Context_accropode_detection">Context:</h3> 
 	<p>
-	Context of the project
+	 The context of the project is to detect and track each accropode of the dam (accropodes blocks are used to strengthen the dam) at "La Réunion" island (the project "Nouvelle route du Littoral").
+	 The point clouds are acquired using photogrammetry method (drone aerial survey) or using bathymetric surveys (for the blocks submerged in the water).
+	 <figure>
+			<img src="context_project_accropode.png" alt="Trulli" style="width:80%">
+		</figure>
 	</p>
 	
-	<h3 id="accropode_detection_algo">Accropodes Detection Algorithm:</h3> 
+	<h3 id="accropode_detection_algo">Overview of the algorithm:</h3> 
 	<p>
-	Overview of the algorithm
+	An automated detection of accropode block from a point cloud is presented. The input point cloud is first decomposed into a set of regions, in which spatial and normal information are taken into account. An adjacency graph
+	is then built. An iterative process of region growing/merging is incorporated with ICP (iterative closest point) fitting using the CAD model. The algorithm is capable to detect accropodes whose a very small part is visible.
+	
+	<figure>
+			<img src="accropode_detection.gif" alt="Trulli" style="width:60%">
+			<figcaption>
+				Figure:   results of accropode detection. Each accropode is overlaid with an CAD model whose position and orientation are determined.
+			</figcaption>
+		</figure>
+
+
+ 
+
 	</p>
 	
 	
+	
+	 <p>
+ 
+<b>Patent:</b>  <b>David Tran-Thanh NGO</b>, Natacha ROBERT, Elisabeth GARDON, "Détection et suivi de blocs préfabriqués dans les nuages de points", pending registration by Soletanche Freyssinet.
+ 
+ </p>
+ <br>
+	
+	
+
+	<hr class = "style3">
+	<br><br>	
 	<!--  Civil Structures Defects detection from orthophoto using ConvNet   -->
 	<p>
 	<h2 id="CNN_defect_detection">Civil Structures Defects detection from orthophoto using ConvNet</h2>	
 	</p>
-	<h3 id="Context_defect_detection">Context:</h3> 
+	<h3 id="Context_defect_detection">Context of the project:</h3> 
 	<p>
-	Context of the project
+	The infrastructure managers carry out periodically an assessment of the state of their heritage to ensure that the structures do not present a risk and schedule the maintenance operations. 
+	Today the cartographies of disorders are manually carried out by Civil Engineering inspectors. The disorders are located and then, their caracteristics (length, surface,...) are mesured or estimated. <br>
+	The goal of the project is to develop an automated detection of defect (concrete spalling, concrete crack, ...) from the orthophoto using deep learning. So, the inspectors can focus on understanding pathologes of defects and not on their representations.
+	
+	<figure>
+			<img src="context_defect_detection_1.PNG" alt="Trulli" width="250" height="250">
+			<img src="context_defect_detection_2.PNG" alt="Trulli" width="250" height="250">
+			<figcaption>
+				Figure:    the cartographies of defects are carried out by inspector on the ground.
+			</figcaption>
+		</figure>
+		
 	</p>
 	
 	<h3 id="defect_detection_algo">Defect Detection Algorithm:</h3> 
 	<p>
-	Overview of the algorithm
+<b>Abstract</b>: Automated building defect detection is highly required in the field of civil and construction to increase the working efficiency of building surveyors. 
+The current image processing techniques are difficult to capture visual 
+representation of cracks in a complex background due to the irregular crack patterns and size. Hence, deep learning neural network  is proposed to automatically identify defects. The proposed
+model is based on pre-trained CNN classifiers of VGG-16 with class activation mapping (CAM) for object localisation. The proposed model has proven to be robust and able to accurately detect and localise
+building defects.
+	
+	
+	
+	<figure>
+			<img src="defect_detection_flowchart.PNG" alt="Trulli" width="700">
+			<figcaption>
+				Figure:     flowchart for detection building defects
+			</figcaption>
+		</figure>
+		
+		
+<figure>
+			<img src="defect_detection_result.PNG" alt="Trulli" width="800">
+			<figcaption>
+				Figure:    defect (concrete spalling) is identified using CAM.
+			</figcaption>
+		</figure>
+				
 	</p>
+	
+	<br>	
 	<!--  Imaging Software for thermal measurement in fusion facilities    -->
 	
 	
 	<hr class = "style3">
+	<br><br>
 	<p>
 	<h2 id="Imaging_Software_title">Imaging Software for thermal measurement in fusion facilities</h2>	
 	</p>
@@ -131,7 +197,7 @@ the data. In this context, since 2016, within the <a href="http://irfm.cea.fr/">
 	<figure>
 			<img src="imaging_software.png" alt="Trulli" style="width:100%">
 			<figcaption>
-				Figure:    .
+				Figure:   thermal events database plugin
 			</figcaption>
 		</figure>
 	</p>
@@ -153,10 +219,27 @@ the data. In this context, since 2016, within the <a href="http://irfm.cea.fr/">
 		</figure>
 	</p>
 	
-	
-	
+	<p>
+	<ul>
+<b>Publications:</b>
+<li>
+Marcin Jakubowski, Peter Drewelow, Joris Fellinger, Aleix Puig Sitjes, Glen Wurden, Adnan Ali, Christoph
+Biedermann, Barbara Cannas, Didier Chauvin, Marc Gamradt, Henry Greve, Yu Gao, Dag Hathiramani, Ralf
+König, Axel Lorenz, Victor Moncada, Holger Niemann, <b>Tran Thanh Ngo</b>, Fabio Pisano, Thomas Sunn
+Pedersen, W7-XTeam, "Infrared imaging systems for wall protection in the W7-X stellarator", Review of
+Scientific Instruments, Volume: 89, Issue: 10, 2018.</li>
+<li> A. Puig Sitjes, M. Jakubowski, A. Ali, P. Drewelow, F. Pisano, V. Moncada, <b>T.T. Ngo</b>, B. Cannas, J.M.
+Travere, G. Kocsis, T. Szepesi and W7-X Team, "Wendelstein 7-X Near Real-time Image Diagnostic System
+for Plasma Facing Components Protection", Fusion Science and Technology, Volume: 74, Issue: 1-2, 2018.
+</li>
+</ul>
+</p>
+ 
+<br>	
+<br>
 	<!--  Building Detection from VHR aerial imagery using shadow and image segmentation   -->
 	<hr class = "style3">
+	<br>	
 	<p>
 	<h2 id="building_detection">Building Detection from VHR aerial imagery using shadow and image segmentation </h2>
 	</p>
@@ -195,9 +278,10 @@ shadow and image segmentation", IEEE International Conference on Image Processin
 	
 	
 	
-	
+	<br><br>	
 	<!--  Simultaneous shadow/vegetation detection from high resolution aerial images   -->
 	<hr class = "style3">
+	<br><br>
 	<p>
 		<h2 id="shadow_vegetation_detection">Simultaneous shadow/vegetation detection from high resolution aerial images</h2>
 	</p>
@@ -239,7 +323,7 @@ You can find  <a href="../assets/recommandation_letters_PhD.pdf">here</a> the co
 
 
 
-
+<br><br>	
 
 <!--  Analysis of individual migration movements of the European sea bass by data mining with electronic tagging   -->
 <hr class = "style3">
