@@ -3,35 +3,35 @@
     "windows": {
       "open-url": "",
       "latest-version": "1.4",
-      "download-url": "https://ftp.sixense-mapping.com/sharing/8uScOCtBj",
+      "download-url": "https://ftp.sixense-mapping.com/fsdownload/q15qIOTe8/toto.las",
       "changelog": "Cirrus: This is an example changelog for Windows. Go on...",
       "mandatory": true
     },
     "osx": {
       "open-url": "",
       "latest-version": "1.4",
-      "download-url": "https://ftp.sixense-mapping.com/sharing/8uScOCtBj",
+      "download-url": "https://ftp.sixense-mapping.com/fsdownload/q15qIOTe8/toto.las",
       "changelog": "This is an example changelog for Mac OS X. Go on...",
       "mandatory": true
     },
     "linux": {
       "open-url": "",
       "latest-version": "1.4",
-      "download-url": "https://ftp.sixense-mapping.com/sharing/8uScOCtBj",
+      "download-url": "https://ftp.sixense-mapping.com/fsdownload/q15qIOTe8/toto.las",
       "changelog": "This is an example changelog for Linux. Go on...",
       "mandatory": true
     },
     "ios": {
       "open-url": "",
       "latest-version": "1.4",
-      "download-url": "https://ftp.sixense-mapping.com/sharing/8uScOCtBj",
+      "download-url": "https://ftp.sixense-mapping.com/fsdownload/q15qIOTe8/toto.las",
       "changelog": "This is an example changelog for iOS. Go on...",
       "mandatory": true
     },
     "android": {
       "open-url": "",
       "latest-version": "1.4",
-      "download-url": "https://ftp.sixense-mapping.com/sharing/8uScOCtBj",
+      "download-url": "https://ftp.sixense-mapping.com/fsdownload/q15qIOTe8/toto.las",
       "changelog": "This is an example changelog for Android. Go on...",
       "mandatory": true
     }
